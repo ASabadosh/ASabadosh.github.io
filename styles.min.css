@@ -57,6 +57,9 @@ main {
   letter-spacing: 2px;
 }
 
+.navbar a:hover {
+  color:rgb(164, 26, 26)
+}
 /* CSS for page footer */
 
 .footer {
@@ -78,6 +81,25 @@ main {
 h1{
   color: rgb(164, 26, 26);
 }
+
+h1, h2, h3{
+  font-family: "Montserrat", "Arial", "sans-serif";
+}
+
+h2, h3{
+   color: white;
+}
+
+p {
+  font-family: "Open Sans", "Arial";
+  color: white;
+}
+
+a {
+  color: rgb(29, 166, 245);
+}
+
+
 
 /*home page*/
 .about{
@@ -101,11 +123,37 @@ h1{
   border-radius: 3px;
 }
 
-h1, h2, h3{
-  font-family: "Montserrat", "Arial", "sans-serif";
+
+/* contact page*/
+.input {
+  display: flex;
+  flex-direction: horizontal; 
+  gap: 15px;   
+  margin-bottom: 20px;
+  align-items: center; 
+  justify-content: center;
 }
 
-p{
+label {
   font-family: "Open Sans", "Arial";
+  color: white;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 200px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+/* portfolio page*/
+.project img{
+border: 30px solid rgb(164, 26, 26);
+}
+
+/* resume page*/
+.resume ul{
    color: white;
 }
